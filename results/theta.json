@@ -1,0 +1,44 @@
+{
+  "latency": {
+    "t0_s": 0.000367536255665534,
+    "bandwidth_GBs": 74.35642214960113,
+    "compute_GFLOPs": 3133.7750564221174
+  },
+  "energy": {
+    "e0_j": 0.0,
+    "j_per_gflop": 0.028993066194173762,
+    "j_per_gbyte": 0.0
+  },
+  "metrics": {
+    "latency_calibration": {
+      "median_ape_percent": 18.441781805648528,
+      "mean_ape_percent": 21.916176505129876,
+      "rmse": 0.02295336254490817
+    },
+    "energy_calibration": {
+      "median_ape_percent": 32.79175417481971,
+      "mean_ape_percent": 35.021441754409864,
+      "rmse": 0.632992245958179
+    },
+    "memory_calibration": {
+      "median_ape_percent": 55.7840477195946,
+      "mean_ape_percent": 57.63699974895177,
+      "rmse": 575078245.9271777
+    },
+    "latency_validation": {
+      "median_ape_percent": 14.857817185985365,
+      "mean_ape_percent": 21.893891268381044,
+      "rmse": 0.02451210256640627
+    },
+    "energy_validation": {
+      "median_ape_percent": 33.50942976799011,
+      "mean_ape_percent": 32.99407301156653,
+      "rmse": 0.5000115372374001
+    },
+    "memory_validation": {
+      "median_ape_percent": 54.59837182932912,
+      "mean_ape_percent": 55.86047894413982,
+      "rmse": 583529838.3047085
+    }
+  }
+}
